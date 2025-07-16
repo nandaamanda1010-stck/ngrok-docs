@@ -9,20 +9,21 @@
     {
       "acme_challenge_cname_target": null,
       "certificate": {
-        "id": "cert_2yJQVYLwoYDcloRwj22iWsodhkE",
-        "uri": "https://api.ngrok.com/tls_certificates/cert_2yJQVYLwoYDcloRwj22iWsodhkE"
+        "id": "cert_2zx6fI2tqFyfiq5ZpWyUycP9HS4",
+        "uri": "https://api.ngrok.com/tls_certificates/cert_2zx6fI2tqFyfiq5ZpWyUycP9HS4"
       },
       "certificate_management_policy": null,
       "certificate_management_status": null,
-      "cname_target": "2udamkamcl8pjmrff.55z7x7vio1vqzzbxa.local-ngrok-cname.com",
-      "created_at": "2025-06-10T10:10:20Z",
+      "cname_target": "2udamkamcl8pjmrff.2zyigeqmoj62u2wdz.local-ngrok-cname.com",
+      "created_at": "2025-07-16T10:07:58Z",
       "domain": "myapp.mydomain.com",
       "error_redirect_url": null,
       "http_endpoint_configuration": null,
       "https_endpoint_configuration": null,
-      "id": "rd_2yJQVYYjq5S88G6mMUmY6A2tYtc",
+      "id": "rd_2zx6fHUNJjRTabP10QcN58zyPoQ",
+      "is_dev": false,
       "region": "",
-      "uri": "https://api.ngrok.com/reserved_domains/rd_2yJQVYYjq5S88G6mMUmY6A2tYtc"
+      "uri": "https://api.ngrok.com/reserved_domains/rd_2zx6fHUNJjRTabP10QcN58zyPoQ"
     },
     {
       "acme_challenge_cname_target": null,
@@ -36,21 +37,39 @@
           "error_code": null,
           "msg": "Managed certificate provisioning in progress.",
           "retries_at": null,
-          "started_at": "2025-06-10T10:10:20Z"
+          "started_at": "2025-07-16T10:07:58Z"
         },
         "renews_at": null
       },
-      "cname_target": "4knqktdwka2umyjjc.55z7x7vio1vqzzbxa.local-ngrok-cname.com",
-      "created_at": "2025-06-10T10:10:20Z",
+      "cname_target": "4knqktdwka2umyjjc.2zyigeqmoj62u2wdz.local-ngrok-cname.com",
+      "created_at": "2025-07-16T10:07:58Z",
       "description": "Device 0001 Dashboard",
       "domain": "manage-0002.app.example.com",
       "error_redirect_url": null,
       "http_endpoint_configuration": null,
       "https_endpoint_configuration": null,
-      "id": "rd_2yJQVbRCIX6NCBQ869aH7N3CyDU",
+      "id": "rd_2zx6fFjFZTyoEUnU2awg2Oy1Fsp",
+      "is_dev": false,
       "metadata": "{\"service\": \"dashboard\"}",
       "region": "",
-      "uri": "https://api.ngrok.com/reserved_domains/rd_2yJQVbRCIX6NCBQ869aH7N3CyDU"
+      "uri": "https://api.ngrok.com/reserved_domains/rd_2zx6fFjFZTyoEUnU2awg2Oy1Fsp"
+    },
+    {
+      "acme_challenge_cname_target": null,
+      "certificate": null,
+      "certificate_management_policy": null,
+      "certificate_management_status": null,
+      "cname_target": null,
+      "created_at": "2025-07-16T10:07:27Z",
+      "description": "Your dev domain",
+      "domain": "gorilla-willing-dory.ngrok-free.dev",
+      "error_redirect_url": null,
+      "http_endpoint_configuration": null,
+      "https_endpoint_configuration": null,
+      "id": "rd_2zx6bMXwnbv72xvUTJPKTFlnv8R",
+      "is_dev": true,
+      "region": "",
+      "uri": "https://api.ngrok.com/reserved_domains/rd_2zx6bMXwnbv72xvUTJPKTFlnv8R"
     }
   ],
   "uri": "https://api.ngrok.com/reserved_domains"
